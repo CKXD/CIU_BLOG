@@ -24,13 +24,11 @@ html {
         min-height: 0px;
       }
     }
-  .overlap {
-    margin-top: 0px;
-    background-color:$overlaycolor;
-    border-radius: 10px;
-    padding: 4px 4px 4px 4px;
-    
-  }
+  table {
+      border-collapse: collapse;
+      border: 1px solid black;
+      table-layout: fixed;
+    } 
 
   .footer-align {
     display: flex;

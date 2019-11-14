@@ -21,5 +21,10 @@ $(document).ready(function(){
   $('.sidenav').sidenav();
 });
 $('.dropdown-trigger').dropdown();
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
 </script>
 </body>

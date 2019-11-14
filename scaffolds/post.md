@@ -1,5 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+tags: 
+fruit: 
 ---
+
+#### Fruit Test

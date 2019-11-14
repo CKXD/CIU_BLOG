@@ -14,7 +14,7 @@ Beschreibung                     | Daten
 ---------------------------------|--------------:
 Gefahrene km :                   | 1569 km
 Fahrzeit :                       | 23:45 Minuten
-Durschnittsreisegeschwindigkeit: | 66 km/h
+Reisegeschwindigkeit Ø:          | 66 km/h
 Durschnittsverbrauch:            | 9,0l/100km
 
 # Zusatzkosten Zahlensalat:
