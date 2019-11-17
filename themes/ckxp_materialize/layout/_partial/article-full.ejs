@@ -10,18 +10,21 @@
         </p>
     </div>
     <div class="articlecontent">
+
         <p><%- item.content %></p>
 
-        <% item.fruits.forEach(function(fruit) { %>
-            <h5><%- fruit %></h5>
-        <% }) %>    
-        <div class="recent">
-            <% item.gallery.forEach(function(pic) {%>
-                
-                <img class="materialboxed" width="350" src='<%- config.upload %><%- pic %>'>
-
-            <% })%>        
-        </div>
+        <% if(item.gallery) { %> 
+        <section>
+           
+          <div class="carousel">
+            <% item.gallery.forEach(function(pac) {%>
+            <div class="carousel-item">
+                <img class="materialboxed " width=250px src='<%- config.upload %><%- pac %>'>
+            </div>
+            <% }) %> 
+          </div>
+        </section>  
+        <% } %> 
 
     </div>
     <div class="tag-post">

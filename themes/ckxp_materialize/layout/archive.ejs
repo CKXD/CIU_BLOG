@@ -1,3 +1,4 @@
+<!--
 <%
     var title = '';
     if (page.category) title = page.category;
@@ -15,3 +16,33 @@
     <%- partial('_partial/article-archive', {item: item}) %>
     <% }); %>
     <%- partial('_partial/pagination') %>
+
+-->
+<h1>Archive</h1>
+
+<% page.posts.each(function(item){ %>
+    <!--<%- partial('_partial/article-archive', {item: item}) %> 
+
+    <div class="blog-post">
+            <!-- Title -->
+            <h2 class="blog-post-title-archive">
+                <a href="<%- config.root %><%- item.path %>">
+                    <%- item.title || item.link%>
+                </a>
+            </h2>
+            <!-- Date and Author -->
+            <p class="blog-post-meta">
+                <%= item.date.format(config.date_format) %>
+                <% if(item.author) { %>
+                    by <%- item.author %>
+                <% } %>
+            </p>
+    </div>
+
+
+    <% }); %> -->
+
+
+    <%- partial('_partial/pagination') %>
+
+ 

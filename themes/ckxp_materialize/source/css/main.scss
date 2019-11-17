@@ -78,7 +78,23 @@ html {
       flex-direction: column;
       
     }
+  .gallery { 
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
+    
+  }    
+
+  .gallery-grid{
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-auto-rows: auto;
+
+
+  }
     
   .cat { 
       grid-area: cat;
@@ -151,3 +167,4 @@ html {
     grid-area: tag-post;
     padding: 0rem 1.5rem 0rem 1.5rem; 
   }
+  
