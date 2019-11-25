@@ -2,7 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 tags: 
-fruit: 
+category:
+gallery: 
 ---
 
 #### Fruit Test
