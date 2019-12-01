@@ -9,7 +9,7 @@ tags: [Wohnmobil,Verl,Warburg,Triathlon]
 series: [Sommertour 2019]
 ---
 
-### 07:15 Uhr
+# Verl, Zeit für Triathlon 07:15 Uhr
 
 Der Platz war schön ruhig, bis auf mich Weichei, anscheinend hat die Schule einen Lüftungsanlage die einen eigentlich kaum wahrnehmbaren Brummton erzeugt, der mich doch beim Einschlafen hinderte. Um Ein Uhr habe ich dann unsere Oro-Pax gesucht und gefunden und ab da war Ruhe, diese Investition hat sich dann schon mal gelohnt.
 Beim Frühstück fing es leider an zu regnen, bevor wir das WoMo etwas näher zum Triathlon umgestellt haben.

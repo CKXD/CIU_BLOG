@@ -8,7 +8,7 @@ categories: [Wohnmobiltour]
 tags: [Wohnmobil, Verl]
 series: [Sommertour 2019]
 ---
-### 14:15 Uhr
+# Iserlohn, es geht los 14:15 Uhr
 
 Das WoMo ist gepackt, die neuen Aufkleber sind angebracht, so sind wir nun als Triathleten zu erkennen.
 11 Monate ohne <!-- more --> längeren zusammenhängenden Urlaub sind nun zu Ende und wir können uns auf drei Wochen ohne Verpflichtungen freuen. Keine Termine, nichts nur eine grobe Richtung wo es hingehen soll.
