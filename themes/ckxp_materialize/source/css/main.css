@@ -1,64 +1,10 @@
 @charset "UTF-8";
-/* archivo-regular - latin */
-@font-face {
-  font-family: 'Archivo';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/archivo-v6-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Archivo Regular"), local("Archivo-Regular"), url("../fonts/archivo-v6-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo-v6-latin-regular.woff2") format("woff2"), url("../fonts/archivo-v6-latin-regular.woff") format("woff"), url("../fonts/archivo-v6-latin-regular.ttf") format("truetype"), url("../fonts/archivo-v6-latin-regular.svg#Archivo") format("svg");
-  /* Legacy iOS */
-}
-
-/* archivo-italic - latin */
-@font-face {
-  font-family: 'Archivo';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/archivo-v6-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Archivo Italic"), local("Archivo-Italic"), url("../fonts/archivo-v6-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo-v6-latin-italic.woff2") format("woff2"), url("../fonts/archivo-v6-latin-italic.woff") format("woff"), url("../fonts/archivo-v6-latin-italic.ttf") format("truetype"), url("../fonts/archivo-v6-latin-italic.svg#Archivo") format("svg");
-  /* Legacy iOS */
-}
-
-/* archivo-600italic - latin */
-@font-face {
-  font-family: 'Archivo';
-  font-style: italic;
-  font-weight: 600;
-  src: url("../fonts/archivo-v6-latin-600italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Archivo SemiBold Italic"), local("Archivo-SemiBoldItalic"), url("../fonts/archivo-v6-latin-600italic.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo-v6-latin-600italic.woff2") format("woff2"), url("../fonts/archivo-v6-latin-600italic.woff") format("woff"), url("../fonts/archivo-v6-latin-600italic.ttf") format("truetype"), url("../fonts/archivo-v6-latin-600italic.svg#Archivo") format("svg");
-  /* Legacy iOS */
-}
-
-/* archivo-600 - latin */
-@font-face {
-  font-family: 'Archivo';
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/archivo-v6-latin-600.eot");
-  /* IE9 Compat Modes */
-  src: local("Archivo SemiBold"), local("Archivo-SemiBold"), url("../fonts/archivo-v6-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo-v6-latin-600.woff2") format("woff2"), url("../fonts/archivo-v6-latin-600.woff") format("woff"), url("../fonts/archivo-v6-latin-600.ttf") format("truetype"), url("../fonts/archivo-v6-latin-600.svg#Archivo") format("svg");
-  /* Legacy iOS */
-}
-
-/* archivo-black-regular - latin */
-@font-face {
-  font-family: 'Archivo Black';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/archivo-black-v9-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Archivo Black Regular"), local("ArchivoBlack-Regular"), url("../fonts/archivo-black-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo-black-v9-latin-regular.woff2") format("woff2"), url("../fonts/archivo-black-v9-latin-regular.woff") format("woff"), url("../fonts/archivo-black-v9-latin-regular.ttf") format("truetype"), url("../fonts/archivo-black-v9-latin-regular.svg#ArchivoBlack") format("svg");
-  /* Legacy iOS */
-}
-
 html {
   background: url(/data/sommertour.jpg) no-repeat center center fixed;
   background-size: cover;
   max-height: 1080px;
-  font-family: Archivo,Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -92,10 +38,7 @@ table {
 }
 
 h1 {
-  font-family: 'Archivo Black';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2rem;
+  text-shadow: 3px 3px 10px rgba(50, 52, 53, 0.9);
 }
 
 .footer-align {
@@ -121,9 +64,15 @@ h1 {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: minmax(200, auto);
       grid-template-rows: minmax(200, auto);
-      grid-template-areas: "intro intro" "recent recent" "cat cloud";
-  background-color: rgba(173, 216, 230, 0.5);
+      grid-template-areas: "recent recent" "cat cloud";
+  background-color: rgba(173, 216, 230, 0.9);
   grid-gap: 0.5rem;
+  margin-top: 40px;
+}
+
+.ankerUnten {
+  position: absolute;
+  height: 10vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -136,14 +85,11 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: rgba(173, 216, 230, 0.5);
+    background-color: rgba(173, 216, 230, 0.9);
   }
 }
 
 .intro {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: intro;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,12 +103,12 @@ h1 {
           align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
-  margin: 0rem 0.5rem 0rem 0.5rem;
+          justify-content: flex-start;
+  height: 100vh;
 }
 
 .recent {
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: recent;
@@ -200,7 +146,7 @@ h1 {
 }
 
 .cat {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: cat;
   margin: 0rem 0.5rem 0rem 0.5rem;
@@ -220,7 +166,7 @@ h1 {
 }
 
 .cloud {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: cloud;
   margin: 0rem 0.5rem 0rem 0.5rem;
@@ -235,6 +181,32 @@ h1 {
           align-items: center;
 }
 
+.archive-list {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(173, 216, 230, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid antiquewhite;
+  padding-left: 3rem;
+}
+
+.blog-post-title-archive {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post-meta {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
 .blog-tags-container, .blog-categories-container {
   margin-top: 30px;
   font-size: 20px;
@@ -245,8 +217,10 @@ h1 {
 }
 
 .blog-post-title-archive {
-  margin-bottom: 5px;
-  font-size: 25px;
+  /*
+      margin-bottom: 5px;
+      font-size: 25px;
+      */
 }
 
 .blog-archive-title {
@@ -262,7 +236,7 @@ h1 {
       grid-template-columns: minmax(50rem, 50rem, 50rem);
   -ms-grid-rows: minmax(50rem, auto, 50rem);
       grid-template-rows: minmax(50rem, auto, 50rem);
-  background-color: rgba(173, 216, 230, 0.5);
+  background-color: rgba(173, 216, 230, 0.9);
   border-radius: 1rem;
   margin: 0rem 1.5rem 0.2rem 1.5rem;
 }

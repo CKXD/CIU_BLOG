@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="articlecontent">
-            <p><%- item.excerpt || item.content %></p>
+            <p class="flow-text><%- item.excerpt || item.content %></p>
                       <!-- Only display the Read More link if we are displaying an excerpt -->
                       <% if(item.excerpt) { %>
                         <a href="<%- config.root %><%- item.path %>">

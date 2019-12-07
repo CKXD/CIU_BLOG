@@ -1,15 +1,20 @@
-<div class="blog-post">
-        <!-- Title -->
-        <h2 class="blog-post-title-archive">
+<div class="archive-list" >
+        
+    
+    
+    <!-- Title -->
+        <p class="blog-post-title-archive">
             <a href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
-        </h2>
+        </p>
         <!-- Date and Author -->
-        <p class="blog-post-meta">
+        <span class="right-align" >
+        <p class="blog-post-meta ">
             <%= item.date.format(config.date_format) %>
             <% if(item.author) { %>
                 by <%- item.author %>
             <% } %>
-        </p>
+        </p></span>
+
     </div>
