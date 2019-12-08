@@ -3,7 +3,7 @@ title: "Sommertour 2019 Tag 3"
 date: 2019-07-15T07:50:00+02:00
 draft: false
 km: km
-ort: Iserlohn
+city: Warburg
 categories: [Wohnmobiltour]
 tags: [Wohnmobil,Warburg]
 series: [Sommertour 2019]

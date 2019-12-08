@@ -3,7 +3,7 @@ title: "Sommertour 2019 Tag 1"
 date: 2019-07-13T14:15:00+02:00
 draft: false
 km: km
-ort: Iserlohn
+city: Iserlohn, Verl
 categories: [Wohnmobiltour]
 tags: [Wohnmobil, Verl]
 series: [Sommertour 2019]

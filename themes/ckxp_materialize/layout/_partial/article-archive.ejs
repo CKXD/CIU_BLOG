@@ -8,13 +8,18 @@
                 <%- item.title || item.link%>
             </a>
         </p>
+        
         <!-- Date and Author -->
-        <span class="right-align" >
+        <!-- <span class="right-align" > -->
         <p class="blog-post-meta ">
             <%= item.date.format(config.date_format) %>
             <% if(item.author) { %>
-                by <%- item.author %>
+                 von <%- item.author %>
             <% } %>
-        </p></span>
+            <% if(item.city) { %>
+                 in <%- item.city %>
+            <% } %>
+            </p>
+        <!-- </p></span> -->
 
     </div>

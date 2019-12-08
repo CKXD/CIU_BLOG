@@ -3,7 +3,7 @@ title: "Sommertour 2019 Tag 2"
 date: 2019-07-14T07:15:00+02:00
 draft: false
 km: km
-ort: Iserlohn
+city: Verl
 categories: [Wohnmobiltour]
 tags: [Wohnmobil,Verl,Warburg,Triathlon]
 series: [Sommertour 2019]

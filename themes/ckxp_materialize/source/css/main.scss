@@ -135,12 +135,13 @@ html {
 
     .archive-list{
       margin: 0;
-      padding: 0;
+      padding: 1rem;
       background-color: $overlaycolor;
       display: flex;
-      flex-direction: row;
-      border-bottom: 1px solid antiquewhite;
+      flex-direction: column;
+      border-bottom: 2px solid antiquewhite;
       padding-left: 3rem;
+      padding-right: 3rem;
       
               
     }

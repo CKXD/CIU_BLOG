@@ -5,7 +5,14 @@ category:
   - Wohnmobiltour
 date: 2019-12-01 19:31:02
 tags: [Bad Sassendorf, Campingplatz, Rennradtour, Kurzurlaub, Wochenende]
+city: Bad Sassendorf
 gallery:
+  - BadSassendorf00.jpg
+  - BadSassendorf01.jpg
+  - BadSassendorf02.jpg
+  - BadSassendorf03.jpg
+  - BadSassendorf04.jpg
+  - BadSassendorf05.jpg
 ---
 
 
